@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ksanderson_week2", "ksander
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ksanderson_week2.Tests", "..\ksanderson_week2.Tests\ksanderson_week2.Tests.csproj", "{68BC83EF-B0F9-40DF-839E-A8424314FCC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ksanderson_week2_master", "ksanderson_week2_master", "{4818192E-8604-49B7-A522-CF0DAAF9F2B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E2D00E3-853C-431F-A810-2B5AA4B279BE} = {4818192E-8604-49B7-A522-CF0DAAF9F2B2}
+		{68BC83EF-B0F9-40DF-839E-A8424314FCC7} = {4818192E-8604-49B7-A522-CF0DAAF9F2B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98A0B6BC-9153-4CB5-ADB6-174244274E28}
