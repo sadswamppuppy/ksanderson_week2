@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ksanderson_week2.Services;
-using Microsoft.AspNetCore.Mvc;
 
 namespace ksanderson_week2.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
+	[Route("math")]
 	public class MathController : ControllerBase
 	{
 		private readonly ICalculator _calculator;
@@ -15,6 +14,7 @@ namespace ksanderson_week2.Controllers
 			_calculator = calculator;
 		}
 
+		[HttpGet("add")]
 		public IActionResult Add(int a, int b)
 		{
 			var result = _calculator.Add(a, b);
